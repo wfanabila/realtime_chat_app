@@ -75,4 +75,3 @@ $$ LANGUAGE plpgsql SECURITY DEFINER;
 * editable (boolean)
 * sender (uuid)
 
-
