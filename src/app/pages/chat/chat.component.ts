@@ -40,6 +40,7 @@ export class ChatComponent {
     });
   }
 
+  
   onSubmit() {
     const formValue = this.chatForm.value.chat_message;
     console.log(formValue);
