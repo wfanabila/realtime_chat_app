@@ -1,3 +1,16 @@
+# Realtime Chat Application
+
+## Student Information
+**Name:** NUR WAFA NABILA BINTI ZIN ADLI
+**Student ID:** 2025248132
+**Group:** CS2703C
+**Lecturer:** MUHAMMAD ATIF BIN RAMLAN
+
+## Project Background
+
+## Discussion
+
+
 <!-- ## Database Table Schema -->
 ## users table
 
