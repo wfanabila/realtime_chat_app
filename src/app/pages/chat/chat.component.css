@@ -30,7 +30,12 @@
   padding: 20px;
   background-color: #f8fbff;
 }
-  
+
+/* Message container relative positioning */
+.chat-message-left {
+  position: relative;
+  padding-right: 40px; /* Make space for the dropdown button */
+}
 
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -97,6 +102,13 @@
 
 .message-actions-toggle:hover {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
 }
 
 /* Dropdown Menu */
@@ -230,17 +242,26 @@
     margin-top: 10px;
 }
 
+/* Dropdown button styling */
 .message-options {
   cursor: pointer;
   font-size: 18px;
   line-height: 1;
   padding: 4px 6px;
   color: #6c757d;
+  background: transparent;
+  border: none;
+  opacity: 0.7;
+  transition: all 0.2s;
 }
 
 .message-options:hover {
   color: #1e8efc;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
 }
+
 
 img {
   box-shadow: 0 0 10px 5px #e4f2ff;

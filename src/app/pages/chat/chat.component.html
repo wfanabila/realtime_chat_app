@@ -28,14 +28,16 @@
                   {{msg?.text}}
 
                 </div>
-                <div class="dropdown">
-                  <span (click)="openDropdown(msg)" class="mt-3 ms-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    ...
-                  </span>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li>
-                      <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</a>
-                    </li>
+                <div class="dropdown ms-2">
+    <span (click)="openDropdown(msg)" 
+          class="message-options" 
+          type="button" 
+          data-bs-toggle="dropdown" 
+          aria-expanded="false">
+      <svg fill="#000000" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>ellipsis-filled</title> <path d="M20.25 16c0 2.347-1.903 4.25-4.25 4.25s-4.25-1.903-4.25-4.25c0-2.347 1.903-4.25 4.25-4.25s4.25 1.903 4.25 4.25zM9.25 16c0 2.347-1.903 4.25-4.25 4.25s-4.25-1.903-4.25-4.25c0-2.347 1.903-4.25 4.25-4.25s4.25 1.903 4.25 4.25zM31.25 16c0 2.347-1.903 4.25-4.25 4.25s-4.25-1.903-4.25-4.25c0-2.347 1.903-4.25 4.25-4.25s4.25 1.903 4.25 4.25z"></path> </g></svg>
+    </span>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+      <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</a></li>
                   </ul>
                 </div>
 
