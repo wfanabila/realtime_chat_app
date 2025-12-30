@@ -1,10 +1,10 @@
 # Realtime Chat Application
 
 ## Student Information
-*Name:* NUR WAFA NABILA BINTI ZIN ADLI
-*Student ID:* 2025248132
-*Group:* CS2703C
-*Lecturer:* MUHAMMAD ATIF BIN RAMLAN
+* Name: NUR WAFA NABILA BINTI ZIN ADLI
+* Student ID: 2025248132
+* Group: CS2703C
+* Lecturer: MUHAMMAD ATIF BIN RAMLAN
 
 ## Project Background
 In today's digital world, real-time communication has been widely spread across the world, where it has become a fundamental necessity for an individual to connect and interact. The shift from instant messaging to real-time chat has transformed digital interactions into fluidity. Its objective is to create a functional real-time chat application that allows users to log in and exchange messages instantly.
